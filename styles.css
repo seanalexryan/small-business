@@ -3,18 +3,19 @@
 
 /* Change default box sizing, margin/padding and background color */
 
-* {
+body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: #f2e9e1;
+    text-align: center;
 
 }
 
 /* Change font style of lists, links and button */
 
 li, a, button {
-    font-family: "Montserrat"; sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 18px;
     color: #1C140D;
@@ -24,7 +25,7 @@ li, a, button {
 /* Change logo style */
 
 .logo {
-    font-family: "Montserrat"; sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: bolder;
     font-size: 24px;
     color: #1C140D;
@@ -57,4 +58,43 @@ button {
     background-color: #cbe86b;
     border: none;
     border-radius: 50px;
+}
+
+/* Style hero section */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.heroText {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.hero img {
+    width: 500px;
+    height: auto;
+}
+
+/* Style the text in the hero section */
+
+h2, p {
+    font-family: "Montserrat", sans-serif;
+    color: #1C140D;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    opacity: 0.8;
 }
