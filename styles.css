@@ -7,7 +7,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #f2e9e1;
+    background-color: #1C140D;
     text-align: center;
 
 }
@@ -18,7 +18,7 @@ li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 18px;
-    color: #1C140D;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -28,7 +28,7 @@ li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: bolder;
     font-size: 24px;
-    color: #1C140D;
+    color: #ffffff;
 }
 
 /* Turn header into flex box to space out elements evenly */
@@ -55,12 +55,13 @@ header {
 
 button {
     padding: 8px 24px;
-    background-color: #cbe86b;
+    color: #1C140D;
+    background-color: #CBE86B;
     border: none;
     border-radius: 50px;
 }
 
-/* Style hero section */
+/* Style hero section, use flexbox to arrange elements */
 
 .hero {
     display: flex;
@@ -86,7 +87,7 @@ button {
 
 h2, p {
     font-family: "Montserrat", sans-serif;
-    color: #1C140D;
+    color: #ffffff;
 }
 
 h2 {
@@ -97,4 +98,42 @@ h2 {
 p {
     font-size: 18px;
     opacity: 0.8;
+}
+
+/* Style the service previews by using flexbox */
+
+.content {
+    align-items: center;
+    background-color: #F2E9E1;
+    padding: 60px 0px;
+}
+
+.contentInfo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #CBE86B;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+/* Style the text in the service preview area */
+
+.content p, h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #1C140D;
+}
+
+h3 {
+    font-size: 36px;
+}
+.content p {
+    font-size: 20px;
+    opacity: 1;
 }
