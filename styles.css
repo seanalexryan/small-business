@@ -16,16 +16,18 @@
 li, a, button {
     font-family: "Montserrat"; sans-serif;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 18px;
     color: #1C140D;
     text-decoration: none;
 }
 
-/* Change logo size */
+/* Change logo style */
 
 .logo {
-    height: 160px;
-    width: auto;
+    font-family: "Montserrat"; sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #1C140D;
 }
 
 /* Turn header into flex box to space out elements evenly */
@@ -34,7 +36,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 32px 10%;
+    padding: 16px 5%;
 }
 
 /* Remove bullets and display links inline */
